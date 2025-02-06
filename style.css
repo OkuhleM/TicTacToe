@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(84, 131, 196);
+    padding: 10px 3px;
+}
+
+.box{
+background-color: grey;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* button{
+  font-size: 25px;
+  color: red;
+
+  &:hover{
+font-size: 30px;
+  }
+} */
